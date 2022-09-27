@@ -12,8 +12,37 @@
 		FB25FE2728E2F03F007B20AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25FE2628E2F03F007B20AA /* Assets.xcassets */; };
 		FB25FE2A28E2F03F007B20AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25FE2828E2F03F007B20AA /* LaunchScreen.storyboard */; };
 		FB25FE3728E30729007B20AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE3628E30729007B20AA /* LoginViewController.swift */; };
-		FB25FE3928E30B6B007B20AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE3828E30B6B007B20AA /* ViewController.swift */; };
+		FB25FE3928E30B6B007B20AA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE3828E30B6B007B20AA /* NewsViewController.swift */; };
 		FB25FE3B28E30BAB007B20AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE3A28E30BAB007B20AA /* SceneDelegate.swift */; };
+		FB25FE4C28E32B29007B20AA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE4B28E32B29007B20AA /* BaseViewController.swift */; };
+		FB25FE4E28E32B31007B20AA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE4D28E32B31007B20AA /* BaseViewModel.swift */; };
+		FB25FE5028E33113007B20AA /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE4F28E33113007B20AA /* AlamofireManager.swift */; };
+		FB25FE5228E3311C007B20AA /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE5128E3311C007B20AA /* RealmManager.swift */; };
+		FB25FE5428E33127007B20AA /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE5328E33127007B20AA /* UserDefaultManager.swift */; };
+		FB25FE5B28E3326D007B20AA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE5A28E3326D007B20AA /* LoginView.swift */; };
+		FB25FE5D28E3327E007B20AA /* LoginViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE5C28E3327E007B20AA /* LoginViewContract.swift */; };
+		FB25FE5F28E3328D007B20AA /* LoginViewController+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE5E28E3328D007B20AA /* LoginViewController+Contract.swift */; };
+		FB25FE6128E332BB007B20AA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE6028E332BB007B20AA /* LoginViewModel.swift */; };
+		FB25FE6628E33300007B20AA /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE6528E33300007B20AA /* NewsViewModel.swift */; };
+		FB25FE6828E33317007B20AA /* NewsViewController+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE6728E33317007B20AA /* NewsViewController+Contract.swift */; };
+		FB25FE6C28E3333C007B20AA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE6B28E3333C007B20AA /* NewsView.swift */; };
+		FB25FE6E28E33351007B20AA /* NewsViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE6D28E33351007B20AA /* NewsViewContract.swift */; };
+		FB25FE7128E333E8007B20AA /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE7028E333E8007B20AA /* NewsCollectionViewCell.swift */; };
+		FB25FE7328E3347D007B20AA /* NewsViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE7228E3347D007B20AA /* NewsViewController+CollectionView.swift */; };
+		FB25FE7A28E3490F007B20AA /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE7928E3490F007B20AA /* APIServices.swift */; };
+		FB25FE7E28E34985007B20AA /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE7D28E34985007B20AA /* NewsResponse.swift */; };
+		FB25FE8028E34992007B20AA /* CategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE7F28E34992007B20AA /* CategoryResponse.swift */; };
+		FB25FE8228E349B3007B20AA /* NewsRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8128E349B3007B20AA /* NewsRemoteDataSource.swift */; };
+		FB25FE8428E349C5007B20AA /* NewsLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8328E349C5007B20AA /* NewsLocalDataSource.swift */; };
+		FB25FE8628E34A27007B20AA /* NewsStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8528E34A27007B20AA /* NewsStaticDataSource.swift */; };
+		FB25FE8828E34A84007B20AA /* NewsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8728E34A84007B20AA /* NewsRepository.swift */; };
+		FB25FE8A28E34A90007B20AA /* NewsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8928E34A90007B20AA /* NewsRepositoryImpl.swift */; };
+		FB25FE8C28E34ABC007B20AA /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8B28E34ABC007B20AA /* News.swift */; };
+		FB25FE8E28E34AF2007B20AA /* NewsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8D28E34AF2007B20AA /* NewsUseCase.swift */; };
+		FB25FE9028E34B06007B20AA /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE8F28E34B06007B20AA /* Date+Ext.swift */; };
+		FB25FE9628E34D0A007B20AA /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE9528E34D0A007B20AA /* UIImageView+Ext.swift */; };
+		FB25FE9828E34D13007B20AA /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE9728E34D13007B20AA /* UILabel+Ext.swift */; };
+		FB25FE9A28E34D21007B20AA /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25FE9928E34D21007B20AA /* UIButton+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +55,37 @@
 		FB25FE2928E2F03F007B20AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB25FE2B28E2F03F007B20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB25FE3628E30729007B20AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FB25FE3828E30B6B007B20AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB25FE3828E30B6B007B20AA /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		FB25FE3A28E30BAB007B20AA /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB25FE4B28E32B29007B20AA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FB25FE4D28E32B31007B20AA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		FB25FE4F28E33113007B20AA /* AlamofireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
+		FB25FE5128E3311C007B20AA /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		FB25FE5328E33127007B20AA /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		FB25FE5A28E3326D007B20AA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FB25FE5C28E3327E007B20AA /* LoginViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewContract.swift; sourceTree = "<group>"; };
+		FB25FE5E28E3328D007B20AA /* LoginViewController+Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Contract.swift"; sourceTree = "<group>"; };
+		FB25FE6028E332BB007B20AA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FB25FE6528E33300007B20AA /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		FB25FE6728E33317007B20AA /* NewsViewController+Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsViewController+Contract.swift"; sourceTree = "<group>"; };
+		FB25FE6B28E3333C007B20AA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		FB25FE6D28E33351007B20AA /* NewsViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewContract.swift; sourceTree = "<group>"; };
+		FB25FE7028E333E8007B20AA /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB25FE7228E3347D007B20AA /* NewsViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		FB25FE7928E3490F007B20AA /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		FB25FE7D28E34985007B20AA /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		FB25FE7F28E34992007B20AA /* CategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryResponse.swift; sourceTree = "<group>"; };
+		FB25FE8128E349B3007B20AA /* NewsRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRemoteDataSource.swift; sourceTree = "<group>"; };
+		FB25FE8328E349C5007B20AA /* NewsLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLocalDataSource.swift; sourceTree = "<group>"; };
+		FB25FE8528E34A27007B20AA /* NewsStaticDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStaticDataSource.swift; sourceTree = "<group>"; };
+		FB25FE8728E34A84007B20AA /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
+		FB25FE8928E34A90007B20AA /* NewsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepositoryImpl.swift; sourceTree = "<group>"; };
+		FB25FE8B28E34ABC007B20AA /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FB25FE8D28E34AF2007B20AA /* NewsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUseCase.swift; sourceTree = "<group>"; };
+		FB25FE8F28E34B06007B20AA /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		FB25FE9528E34D0A007B20AA /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		FB25FE9728E34D13007B20AA /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		FB25FE9928E34D21007B20AA /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,15 +138,276 @@
 		FB25FE1C28E2F03E007B20AA /* iOSArchitectureExp */ = {
 			isa = PBXGroup;
 			children = (
-				FB25FE3A28E30BAB007B20AA /* SceneDelegate.swift */,
-				FB25FE3828E30B6B007B20AA /* ViewController.swift */,
-				FB25FE1D28E2F03E007B20AA /* AppDelegate.swift */,
-				FB25FE2628E2F03F007B20AA /* Assets.xcassets */,
-				FB25FE2828E2F03F007B20AA /* LaunchScreen.storyboard */,
-				FB25FE2B28E2F03F007B20AA /* Info.plist */,
-				FB25FE3628E30729007B20AA /* LoginViewController.swift */,
+				FB25FE3C28E30D66007B20AA /* Application */,
+				FB25FE4728E3278C007B20AA /* Core */,
+				FB25FE3F28E30DB6007B20AA /* Data */,
+				FB25FE4028E30DBA007B20AA /* Domain */,
+				FB25FE4128E30DCD007B20AA /* Extensions */,
+				FB25FE3E28E30DAF007B20AA /* Presentation */,
+				FB25FE3D28E30D96007B20AA /* Resources */,
 			);
 			path = iOSArchitectureExp;
+			sourceTree = "<group>";
+		};
+		FB25FE3C28E30D66007B20AA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE1D28E2F03E007B20AA /* AppDelegate.swift */,
+				FB25FE3A28E30BAB007B20AA /* SceneDelegate.swift */,
+				FB25FE4628E32785007B20AA /* Base */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FB25FE3D28E30D96007B20AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE2628E2F03F007B20AA /* Assets.xcassets */,
+				FB25FE2B28E2F03F007B20AA /* Info.plist */,
+				FB25FE2828E2F03F007B20AA /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB25FE3E28E30DAF007B20AA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE4328E324DC007B20AA /* News */,
+				FB25FE4228E324C9007B20AA /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FB25FE3F28E30DB6007B20AA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE7B28E3495C007B20AA /* DataSource */,
+				FB25FE7828E34894007B20AA /* Remote */,
+				FB25FE7628E34886007B20AA /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB25FE4028E30DBA007B20AA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE7528E34877007B20AA /* Model */,
+				FB25FE7428E34870007B20AA /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FB25FE4128E30DCD007B20AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE9128E34B15007B20AA /* Component */,
+				FB25FE8F28E34B06007B20AA /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB25FE4228E324C9007B20AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE4428E32508007B20AA /* View */,
+				FB25FE4528E3250D007B20AA /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FB25FE4328E324DC007B20AA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE6328E332E6007B20AA /* View */,
+				FB25FE6228E332DD007B20AA /* ViewModel */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FB25FE4428E32508007B20AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE5928E3324C007B20AA /* Controller */,
+				FB25FE5828E33247007B20AA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB25FE4528E3250D007B20AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE6028E332BB007B20AA /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB25FE4628E32785007B20AA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE4B28E32B29007B20AA /* BaseViewController.swift */,
+				FB25FE4D28E32B31007B20AA /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FB25FE4728E3278C007B20AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE4828E329BB007B20AA /* Alamofire */,
+				FB25FE4928E329C1007B20AA /* Realm */,
+				FB25FE4A28E329D4007B20AA /* UserDefault */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FB25FE4828E329BB007B20AA /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE4F28E33113007B20AA /* AlamofireManager.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		FB25FE4928E329C1007B20AA /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE5128E3311C007B20AA /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		FB25FE4A28E329D4007B20AA /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE5328E33127007B20AA /* UserDefaultManager.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		FB25FE5828E33247007B20AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE5A28E3326D007B20AA /* LoginView.swift */,
+				FB25FE5C28E3327E007B20AA /* LoginViewContract.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FB25FE5928E3324C007B20AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE3628E30729007B20AA /* LoginViewController.swift */,
+				FB25FE5E28E3328D007B20AA /* LoginViewController+Contract.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB25FE6228E332DD007B20AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE6528E33300007B20AA /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB25FE6328E332E6007B20AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE6A28E33326007B20AA /* Controller */,
+				FB25FE6928E3331B007B20AA /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB25FE6928E3331B007B20AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE6F28E3335C007B20AA /* Cell */,
+				FB25FE6B28E3333C007B20AA /* NewsView.swift */,
+				FB25FE6D28E33351007B20AA /* NewsViewContract.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FB25FE6A28E33326007B20AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE3828E30B6B007B20AA /* NewsViewController.swift */,
+				FB25FE6728E33317007B20AA /* NewsViewController+Contract.swift */,
+				FB25FE7228E3347D007B20AA /* NewsViewController+CollectionView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB25FE6F28E3335C007B20AA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE7028E333E8007B20AA /* NewsCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FB25FE7428E34870007B20AA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE8D28E34AF2007B20AA /* NewsUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		FB25FE7528E34877007B20AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE8B28E34ABC007B20AA /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB25FE7628E34886007B20AA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE8728E34A84007B20AA /* NewsRepository.swift */,
+				FB25FE8928E34A90007B20AA /* NewsRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FB25FE7828E34894007B20AA /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE7C28E34974007B20AA /* Response */,
+				FB25FE7928E3490F007B20AA /* APIServices.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FB25FE7B28E3495C007B20AA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE8328E349C5007B20AA /* NewsLocalDataSource.swift */,
+				FB25FE8128E349B3007B20AA /* NewsRemoteDataSource.swift */,
+				FB25FE8528E34A27007B20AA /* NewsStaticDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FB25FE7C28E34974007B20AA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE7D28E34985007B20AA /* NewsResponse.swift */,
+				FB25FE7F28E34992007B20AA /* CategoryResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		FB25FE9128E34B15007B20AA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FB25FE9528E34D0A007B20AA /* UIImageView+Ext.swift */,
+				FB25FE9728E34D13007B20AA /* UILabel+Ext.swift */,
+				FB25FE9928E34D21007B20AA /* UIButton+Ext.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,10 +524,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB25FE3928E30B6B007B20AA /* ViewController.swift in Sources */,
+				FB25FE8E28E34AF2007B20AA /* NewsUseCase.swift in Sources */,
+				FB25FE4C28E32B29007B20AA /* BaseViewController.swift in Sources */,
+				FB25FE6C28E3333C007B20AA /* NewsView.swift in Sources */,
+				FB25FE6828E33317007B20AA /* NewsViewController+Contract.swift in Sources */,
+				FB25FE5228E3311C007B20AA /* RealmManager.swift in Sources */,
+				FB25FE8628E34A27007B20AA /* NewsStaticDataSource.swift in Sources */,
+				FB25FE9828E34D13007B20AA /* UILabel+Ext.swift in Sources */,
+				FB25FE3928E30B6B007B20AA /* NewsViewController.swift in Sources */,
+				FB25FE7328E3347D007B20AA /* NewsViewController+CollectionView.swift in Sources */,
 				FB25FE1E28E2F03E007B20AA /* AppDelegate.swift in Sources */,
+				FB25FE9028E34B06007B20AA /* Date+Ext.swift in Sources */,
+				FB25FE8828E34A84007B20AA /* NewsRepository.swift in Sources */,
+				FB25FE8428E349C5007B20AA /* NewsLocalDataSource.swift in Sources */,
 				FB25FE3728E30729007B20AA /* LoginViewController.swift in Sources */,
+				FB25FE7128E333E8007B20AA /* NewsCollectionViewCell.swift in Sources */,
+				FB25FE8A28E34A90007B20AA /* NewsRepositoryImpl.swift in Sources */,
+				FB25FE8228E349B3007B20AA /* NewsRemoteDataSource.swift in Sources */,
 				FB25FE3B28E30BAB007B20AA /* SceneDelegate.swift in Sources */,
+				FB25FE6E28E33351007B20AA /* NewsViewContract.swift in Sources */,
+				FB25FE5F28E3328D007B20AA /* LoginViewController+Contract.swift in Sources */,
+				FB25FE9A28E34D21007B20AA /* UIButton+Ext.swift in Sources */,
+				FB25FE5428E33127007B20AA /* UserDefaultManager.swift in Sources */,
+				FB25FE9628E34D0A007B20AA /* UIImageView+Ext.swift in Sources */,
+				FB25FE8C28E34ABC007B20AA /* News.swift in Sources */,
+				FB25FE6128E332BB007B20AA /* LoginViewModel.swift in Sources */,
+				FB25FE7E28E34985007B20AA /* NewsResponse.swift in Sources */,
+				FB25FE7A28E3490F007B20AA /* APIServices.swift in Sources */,
+				FB25FE5D28E3327E007B20AA /* LoginViewContract.swift in Sources */,
+				FB25FE5028E33113007B20AA /* AlamofireManager.swift in Sources */,
+				FB25FE6628E33300007B20AA /* NewsViewModel.swift in Sources */,
+				FB25FE5B28E3326D007B20AA /* LoginView.swift in Sources */,
+				FB25FE8028E34992007B20AA /* CategoryResponse.swift in Sources */,
+				FB25FE4E28E32B31007B20AA /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +697,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSArchitectureExp/Info.plist;
+				INFOPLIST_FILE = iOSArchitectureExp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -376,7 +724,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSArchitectureExp/Info.plist;
+				INFOPLIST_FILE = iOSArchitectureExp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
